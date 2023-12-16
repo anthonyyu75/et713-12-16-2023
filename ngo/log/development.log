@@ -279,3 +279,13 @@ Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 4
 NameError (uninitialized constant ArticlesController::Article):
   
 app/controllers/articles_controller.rb:11:in `new'
+Started GET "/articles/new" for 108.41.115.6 at 2023-12-16 09:42:36 +0000
+Cannot render console from 108.41.115.6! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 454)
+
+
+  
+NameError (uninitialized constant ArticlesController::Article):
+  
+app/controllers/articles_controller.rb:11:in `new'
